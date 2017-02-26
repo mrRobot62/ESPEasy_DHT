@@ -3,15 +3,17 @@
 -I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/cores/esp8266
 -I../lib
 -I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu
--I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/Wire
 -I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src
--I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src
--I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src
--I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/LiquidCrystal_I2C
--I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/ArduinoJson
--I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/SPI
--I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/pubsubclient/src
 -I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/ArduinoJson
+-I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src
+-I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/SPI
+-I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/pubsubclient/src
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/Adafruit Unified Sensor_ID31
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/DHT sensor library_ID19
+-I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/Wire
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/LiquidCrystal_I2C
 -I/Users/bernhardklein/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src
 -I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/src
 -I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/ArduinoJson
@@ -20,6 +22,11 @@
 -I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/LiquidCrystal_I2C
 -I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/pubsubclient/src
 -I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/lib/pubsubclient/src
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/Adafruit DHT Unified_ID18
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/Adafruit Unified Sensor_ID31
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/DHT sensor library_ID19
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/Adafruit Unified Sensor_ID31
+-I/Users/bernhardklein/Public/local-workspace/esp8266/ESPEasy_DHT/.piolibdeps/DHT sensor library_ID19
 -I/Users/bernhardklein/.platformio/lib/Adafruit MQTT Library_ID1092
 -I/Users/bernhardklein/.platformio/lib/BH1750_ID439
 -I/Users/bernhardklein/.platformio/lib/Blynk_ID415/src
@@ -85,4 +92,3 @@
 -DESP8266
 -DARDUINO_ARCH_ESP8266
 -DARDUINO_ESP8266_ESP12
--DPLUGIN_BUILD_NORMAL
